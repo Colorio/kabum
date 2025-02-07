@@ -1,0 +1,77 @@
+a {
+  color: var(--blue);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.session-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.session-header div button {
+  padding: 12px 24px  ;
+}
+
+.session-header div button:disabled {
+  opacity: 0.5;
+}
+
+.session-list {
+  margin-block: 24px;
+  overflow-x: auto;
+}
+
+button a {
+  color: white;
+}
+
+/* modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 400px;
+}
+
+#modalAddresses .modal-content {
+  max-width: 800px;
+}
+
+.close {
+  color: var(--orange);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal input {
+  border: 1px solid lightgray;
+  margin-bottom: 16px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

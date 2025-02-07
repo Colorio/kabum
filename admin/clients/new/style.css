@@ -1,0 +1,25 @@
+.session-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.session-header div button {
+  padding: 12px 24px  ;
+}
+
+.session-new form {
+  display: flex;
+  flex-direction: column;
+}
+
+.session-new form > div {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  margin-block: 28px;
+}
+
+.session-new input {
+  border: 1px solid lightgray;
+}

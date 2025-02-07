@@ -1,0 +1,74 @@
+body {
+  padding: 20px;
+}
+
+header {
+  background: var(--orange);
+  border-radius: 8px;
+  padding: 24px 36px;
+  margin-bottom: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+header ul li a {
+  color: white;
+}
+
+session {
+  background:   white;
+  border-radius: 8px;
+  padding: 24px 36px;
+  margin-bottom: 40px;
+}
+
+table .actions {
+  display: flex;
+  gap: 8px;
+}
+
+table .actions a{
+  width: 100%;
+}
+
+table .actions button{
+  padding: 12px 0px;
+}
+
+table .actions .edit {
+  background-color: var(--orange);
+  width: 100%;
+}
+
+table .actions .delete, table .actions .cancel {
+  background-color: red;
+  width: 100%;
+}
+
+.error:not(:empty) {
+  display: flex;
+  margin: 0 !important;
+  background-color: lightpink;
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  color: red;
+}
+
+.success:not(:empty) {
+  display: flex;
+  margin: 0 !important;
+  background-color: lightgreen;
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  color: green;
+}
